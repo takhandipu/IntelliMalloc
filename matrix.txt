@@ -1,9 +1,9 @@
-# started on Thu Apr  5 18:04:00 2018
+# started on Thu Apr  5 19:24:47 2018
 
 
  Performance counter stats for './matrix' (1000 runs):
 
-                 1      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  6.83% )
+                 0      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +- 28.05% )
 
-       0.018999143 seconds time elapsed                                          ( +-  0.40% )
+       0.001017773 seconds time elapsed                                          ( +-  0.19% )
 

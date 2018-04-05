@@ -55,6 +55,21 @@ c[castedIndex->k1][castedIndex->k2] += a[castedIndex->i1][castedIndex->i2]*b[cas
 */
 }
 
+void printResult()
+{
+  int i,j;
+  FILE *fp = fopen("padded_parallel_result.txt", "w");
+  for(i=0;i<SIZE;i++)
+  {
+    for(j=0;j<SIZE;j++)
+    {
+      fprintf(fp,"%d ",c[i][j].value);
+    }
+    fprintf(fp,"\n");
+  }
+  fclose(fp);
+}
+
 int main(void)
 {
   int i,j,k;
@@ -78,5 +93,6 @@ int main(void)
     pthread_create(&threads[i], NULL, run, &tmp[i].value);
   }
   for(i=0;i<SIZE;i++)pthread_join(threads[i], NULL);
+  //printResult();
   return 0;
 }

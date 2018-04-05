@@ -1,0 +1,152 @@
+thread begin 0
+thread 0 entered malloc(1425)
+thread 0 entered malloc(1169)
+thread 0 entered malloc(16)
+thread 0 entered malloc(75)
+thread 0 entered malloc(40)
+thread 0 entered malloc(320)
+thread 0 entered malloc(38)
+thread 0 entered malloc(1184)
+thread 0 entered malloc(38)
+thread 0 entered malloc(32)
+thread 0 entered malloc(1178)
+thread 0 entered malloc(32)
+thread 0 entered malloc(56)
+thread 0 entered malloc(40)
+thread 0 entered malloc(72)
+thread 0 entered malloc(120)
+thread 0 entered malloc(72)
+thread 0 entered malloc(432)
+thread 0 entered malloc(672)
+thread 0 entered malloc(144)
+thread 0 entered malloc(1040)
+thread 0 entered malloc(272)
+thread begin 1
+thread end 1 code 0
+thread begin 2
+thread end 2 code 0
+thread begin 3
+thread end 3 code 0
+thread begin 4
+thread end 4 code 0
+thread begin 5
+thread begin 6
+thread end 5 code 0
+thread end 6 code 0
+thread begin 7
+thread begin 8
+thread end 7 code 0
+thread end 8 code 0
+thread begin 9
+thread end 9 code 0
+thread begin 10
+thread end 10 code 0
+thread begin 11
+thread end 11 code 0
+thread begin 12
+thread end 12 code 0
+thread begin 13
+thread end 13 code 0
+thread begin 14
+thread end 14 code 0
+thread begin 15
+thread end 15 code 0
+thread begin 16
+thread end 16 code 0
+thread begin 17
+thread end 17 code 0
+thread begin 18
+thread end 18 code 0
+thread begin 19
+thread end 19 code 0
+thread begin 20
+thread end 20 code 0
+thread begin 21
+thread end 21 code 0
+thread begin 22
+thread end 22 code 0
+thread begin 23
+thread end 23 code 0
+thread begin 24
+thread end 24 code 0
+thread begin 25
+thread end 25 code 0
+thread begin 26
+thread end 26 code 0
+thread begin 27
+thread end 27 code 0
+thread begin 28
+thread end 28 code 0
+thread begin 29
+thread end 29 code 0
+thread begin 30
+thread end 30 code 0
+thread begin 31
+thread end 31 code 0
+thread begin 32
+thread end 32 code 0
+thread begin 33
+thread end 33 code 0
+thread begin 34
+thread end 34 code 0
+thread begin 35
+thread end 35 code 0
+thread begin 36
+thread end 36 code 0
+thread begin 37
+thread end 37 code 0
+thread begin 38
+thread end 38 code 0
+thread begin 39
+thread end 39 code 0
+thread begin 40
+thread end 40 code 0
+thread begin 41
+thread end 41 code 0
+thread begin 42
+thread end 42 code 0
+thread begin 43
+thread end 43 code 0
+thread begin 44
+thread end 44 code 0
+thread begin 45
+thread end 45 code 0
+thread begin 46
+thread end 46 code 0
+thread begin 47
+thread end 47 code 0
+thread begin 48
+thread end 48 code 0
+thread begin 49
+thread end 49 code 0
+thread begin 50
+thread begin 51
+thread end 50 code 0
+thread end 51 code 0
+thread begin 52
+thread end 52 code 0
+thread begin 53
+thread end 53 code 0
+thread begin 54
+thread begin 55
+thread end 54 code 0
+thread end 55 code 0
+thread begin 56
+thread end 56 code 0
+thread begin 57
+thread end 57 code 0
+thread begin 58
+thread end 58 code 0
+thread begin 59
+thread end 59 code 0
+thread begin 60
+thread end 60 code 0
+thread begin 61
+thread end 61 code 0
+thread begin 62
+thread end 62 code 0
+thread begin 63
+thread end 63 code 0
+thread begin 64
+thread end 64 code 0
+thread end 0 code 0

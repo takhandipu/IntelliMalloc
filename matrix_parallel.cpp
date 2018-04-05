@@ -23,24 +23,45 @@ void *run(void *index)
 {
   int i = *(int *)index;
   int j,k;
+#if PIN_MODE == 1
   char str[20];
-  //FILE *fp;
-  //sprintf(str, "p%d.txt",i);
-  //fp = fopen(str, "w");
-  //printf("%d\n",i);
+  FILE *fp;
+  sprintf(str, "parallel_thread_%d.txt",i);
+  fp = fopen(str, "w");
+  printf("%d\n",i);
+#endif
   for(j=0;j<SIZE;j++)
   {
     for(k=0;k<SIZE;k++)
     {
-      //fprintf(fp, "%p\n", &c[i][j]);
+#if PIN_MODE == 1
+      fprintf(fp, "%p\n", &c[i][j]);
+#endif
       c[i][j]+= a[i][k]*b[k][j];
     }
   }
-  //fclose(fp);
+#if PIN_MODE == 1
+  fclose(fp);
+#endif
 /*
 Index * castedIndex = (Index *)index;
 c[castedIndex->k1][castedIndex->k2] += a[castedIndex->i1][castedIndex->i2]*b[castedIndex->j1][castedIndex->j2];
 */
+}
+
+void printResult()
+{
+  int i,j;
+  FILE *fp = fopen("parallel_result.txt", "w");
+  for(i=0;i<SIZE;i++)
+  {
+    for(j=0;j<SIZE;j++)
+    {
+      fprintf(fp,"%d ",c[i][j]);
+    }
+    fprintf(fp,"\n");
+  }
+  fclose(fp);
 }
 
 int main(void)
@@ -58,12 +79,22 @@ int main(void)
   pthread_t threads[SIZE];
   int tmp[SIZE];
   //int num=0;
+#if PIN_MODE == 1
+  FILE *fp = fopen("parallel_thread_main.txt","w");
+#endif
   for(i=0;i<SIZE;i++)
   {
     //Index index(i,k,k,j,i,j);
     tmp[i]=i;
+#if PIN_MODE == 1
+    fprintf(fp, "%p\n",&tmp[i]);
+#endif
     pthread_create(&threads[i], NULL, run, &tmp[i]);
   }
   for(i=0;i<SIZE;i++)pthread_join(threads[i], NULL);
+  //printResult();
+#if PIN_MODE == 1
+  fclose(fp);
+#endif
   return 0;
 }
