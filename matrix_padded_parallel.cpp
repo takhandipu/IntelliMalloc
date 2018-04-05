@@ -70,12 +70,12 @@ int main(void)
   //printf("%lu\n%p\n%p\n",sizeof(PaddedInt),&c[0][0],&c[0][1]);
   pthread_t threads[SIZE];
   //int num=0;
-  int tmp[SIZE];
+  struct padded tmp[SIZE];
   for(i=0;i<SIZE;i++)
   {
     //Index index(i,k,k,j,i,j);
-    tmp[i]=i;
-    pthread_create(&threads[i], NULL, run, &tmp[i]);
+    tmp[i].value=i;
+    pthread_create(&threads[i], NULL, run, &tmp[i].value);
   }
   for(i=0;i<SIZE;i++)pthread_join(threads[i], NULL);
   return 0;
