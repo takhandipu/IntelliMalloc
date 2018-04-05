@@ -1,19 +1,25 @@
 #include <pthread.h>
 #include <stdio.h>
-#define SIZE 128
+#include "matrix.h"
 
 class PaddedInt
 {
 public:
   int value;
-  int padding[1];
+  int padding[15];
   void set(int val){value=val;}
   int get(){return value;}
   void incr(int val){value+=val;}
 };
 
+struct padded
+{
+int value;
+int padding[15];
+};
+
 int  a[SIZE][SIZE], b[SIZE][SIZE];
-PaddedInt c[SIZE][SIZE];
+/*PaddedInt*/struct padded c[SIZE][SIZE];
 
 class Index
 {
@@ -39,7 +45,8 @@ void *run(void *index)
     for(k=0;k<SIZE;k++)
     {
       //c[i][j].set(a[i][k]*b[k][j]+c[i][j].get());
-      c[i][j].incr(a[i][k]*b[k][j]);
+      //c[i][j].incr(a[i][k]*b[k][j]);
+      c[i][j].value+=a[i][k]*b[k][j];
     }
   }
 /*
@@ -57,17 +64,18 @@ int main(void)
     {
       a[i][j]=i+j;
       b[i][j]=i-j;
-      c[i][j].set(0);
+      c[i][j].value=0;
     }
   }
   //printf("%lu\n%p\n%p\n",sizeof(PaddedInt),&c[0][0],&c[0][1]);
   pthread_t threads[SIZE];
   //int num=0;
+  int tmp[SIZE];
   for(i=0;i<SIZE;i++)
   {
     //Index index(i,k,k,j,i,j);
-    int tmp=i;
-    pthread_create(&threads[i], NULL, run, &tmp);
+    tmp[i]=i;
+    pthread_create(&threads[i], NULL, run, &tmp[i]);
   }
   for(i=0;i<SIZE;i++)pthread_join(threads[i], NULL);
   return 0;

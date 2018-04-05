@@ -1,5 +1,5 @@
 //#include <pthread.h>
-#define SIZE 128
+#include "matrix.h"
 
 int  a[SIZE][SIZE], b[SIZE][SIZE], c[SIZE][SIZE];
 

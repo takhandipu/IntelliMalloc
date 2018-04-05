@@ -1,5 +1,6 @@
 #include <pthread.h>
-#define SIZE 128
+#include <stdio.h>
+#include "matrix.h"
 
 int  a[SIZE][SIZE], b[SIZE][SIZE], c[SIZE][SIZE];
 
@@ -22,13 +23,20 @@ void *run(void *index)
 {
   int i = *(int *)index;
   int j,k;
+  char str[20];
+  //FILE *fp;
+  //sprintf(str, "p%d.txt",i);
+  //fp = fopen(str, "w");
+  //printf("%d\n",i);
   for(j=0;j<SIZE;j++)
   {
     for(k=0;k<SIZE;k++)
     {
+      //fprintf(fp, "%p\n", &c[i][j]);
       c[i][j]+= a[i][k]*b[k][j];
     }
   }
+  //fclose(fp);
 /*
 Index * castedIndex = (Index *)index;
 c[castedIndex->k1][castedIndex->k2] += a[castedIndex->i1][castedIndex->i2]*b[castedIndex->j1][castedIndex->j2];
@@ -48,12 +56,13 @@ int main(void)
     }
   }
   pthread_t threads[SIZE];
+  int tmp[SIZE];
   //int num=0;
   for(i=0;i<SIZE;i++)
   {
     //Index index(i,k,k,j,i,j);
-    int tmp=i;
-    pthread_create(&threads[i], NULL, run, &tmp);
+    tmp[i]=i;
+    pthread_create(&threads[i], NULL, run, &tmp[i]);
   }
   for(i=0;i<SIZE;i++)pthread_join(threads[i], NULL);
   return 0;
