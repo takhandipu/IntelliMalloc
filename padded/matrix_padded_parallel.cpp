@@ -1,5 +1,6 @@
 #include <pthread.h>
 #include <stdio.h>
+#include <inttypes.h>
 #include "matrix.h"
 
 class PaddedInt
@@ -46,20 +47,21 @@ void *run(void *index)
   sprintf(str, "padded_thread_%d.txt",i);
   fp = fopen(str, "w");
   fprintf(fp,"%d\n",i);
+  fprintf(fp, "%" PRIuPTR  "\n",(uintptr_t)index);
 #endif
+  int val = 0;
   for(j=0;j<SIZE;j++)
   {
     for(k=0;k<SIZE;k++)
     {
-#if PIN_MODE == 1
-      fprintf(fp, "%p\n", &c[i][j].value);
-#endif
       //c[i][j].set(a[i][k]*b[k][j]+c[i][j].get());
       //c[i][j].incr(a[i][k]*b[k][j]);
-      c[i][j].value+=a[i][k]*b[k][j];
+      val+=a[i][k]*b[k][j];
     }
   }
+  c[i][j].value=val;
 #if PIN_MODE == 1
+  fprintf(fp, "%" PRIuPTR  "\n",(uintptr_t)&c[i][j].value);
   fclose(fp);
 #endif
 /*
@@ -108,7 +110,7 @@ int main(void)
     //Index index(i,k,k,j,i,j);
     tmp[i].value=i;
 #if PIN_MODE == 1
-    fprintf(fp, "%p\n",&tmp[i].value);
+    fprintf(fp, "%" PRIuPTR  "\n",(uintptr_t)&tmp[i].value);
 #endif
     pthread_create(&threads[i], NULL, run, &tmp[i].value);
   }

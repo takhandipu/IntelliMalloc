@@ -1,5 +1,6 @@
 #include <pthread.h>
 #include <stdio.h>
+#include <inttypes.h>
 #include "matrix.h"
 
 int  a[SIZE][SIZE], b[SIZE][SIZE], c[SIZE][SIZE];
@@ -29,13 +30,14 @@ void *run(void *index)
   sprintf(str, "parallel_thread_%d.txt",i);
   fp = fopen(str, "w");
   fprintf(fp,"%d\n",i);
+  fprintf(fp,"%" PRIuPTR  "\n",(uintptr_t)index);
 #endif
   for(j=0;j<SIZE;j++)
   {
     for(k=0;k<SIZE;k++)
     {
 #if PIN_MODE == 1
-      fprintf(fp, "%p\n", &c[i][j]);
+      fprintf(fp, "%" PRIuPTR  "\n",(uintptr_t)&c[i][j]);
 #endif
       c[i][j]+= a[i][k]*b[k][j];
     }
@@ -67,6 +69,7 @@ void printResult()
 int main(void)
 {
   int i,j,k;
+  //printf("%lu, %lu, %lu\n",sizeof(int), sizeof(int*), sizeof(void*));
   for(i=0;i<SIZE;i++)
   {
     for(j=0;j<SIZE;j++)
@@ -87,7 +90,7 @@ int main(void)
     //Index index(i,k,k,j,i,j);
     tmp[i]=i;
 #if PIN_MODE == 1
-    fprintf(fp, "%p\n",&tmp[i]);
+    fprintf(fp, "%" PRIuPTR  "\n",(uintptr_t)&tmp[i]);
 #endif
     pthread_create(&threads[i], NULL, run, &tmp[i]);
   }

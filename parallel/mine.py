@@ -15,7 +15,7 @@ for i in range(size+1):
         pass
       else:
         isFirst = False
-        memLocation = int(line.strip(), 16)
+        memLocation = int(line.strip(), 10)
         memLocation -= memLocation % 64
         if memLocation in memLocations:
           if threadNum in memLocations[memLocation]:
