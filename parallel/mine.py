@@ -1,45 +1,42 @@
+import csv
 name_start = "parallel_thread_"
-size = 10
+size = 4
 memLocations = {}
 for i in range(size+1):
-  filename = name_start+`i`+".txt"
-  if i == size:
-    filename = name_start+"main.txt"
+  filename = name_start+`i`+".csv"
   with open(filename) as file:
-    isFirst = True
-    threadNum = size
-    for line in file:
-      if isFirst and i != size:
-        isFirst = False
-        threadNum = int(line)
+    reader = csv.reader(file)
+    threadNum = i
+    for row in reader:
+      memLocation = int(row[1].strip(), 10)
+      # memLocation -= memLocation % 64
+      if memLocation in memLocations:
+        if threadNum in memLocations[memLocation]:
+          memLocations[memLocation][threadNum]+=1
+        else:
+          memLocations[memLocation][threadNum]=1
         pass
       else:
-        isFirst = False
-        memLocation = int(line.strip(), 10)
-        memLocation -= memLocation % 64
-        if memLocation in memLocations:
-          if threadNum in memLocations[memLocation]:
-            memLocations[memLocation][threadNum]+=1
-          else:
-            memLocations[memLocation][threadNum]=1
-          pass
-        else:
-          memLocations[memLocation]={}
-          memLocations[memLocation][threadNum]=1
-          pass
+        memLocations[memLocation]={}
+        memLocations[memLocation][threadNum]=1
         pass
       pass
     pass
   pass
-for memLocation in memLocations:
-  if len(memLocations[memLocation]) < 2:
-    continue
-    pass
-  print '------------------'
-  print memLocation
-  for threadNum in memLocations[memLocation]:
-    print threadNum, memLocations[memLocation][threadNum]
-    pass
-  print '------------------'
+keys = sorted(memLocations.keys())
+print "Threadid,",
+for memLocation in keys:
+  print memLocation, ',',
+  pass
+print ""
+for threadNum in range(size+1):
+  print threadNum,",",
+  for memLocation in keys:
+    if threadNum in memLocations[memLocation]:
+      print memLocations[memLocation][threadNum],",",
+    else:
+      print "-,",
+      pass
+  print ''
   pass
 

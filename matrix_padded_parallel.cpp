@@ -40,13 +40,18 @@ void *run(void *index)
 {
   int i = *(int *)index;
   int j,k;
-  for(j=0;j<SIZE;j++)
+  for(int l = i; l < SIZE; l+=CORE_COUNT)
   {
-    for(k=0;k<SIZE;k++)
+    for(j=0;j<SIZE;j++)
     {
-      //c[i][j].set(a[i][k]*b[k][j]+c[i][j].get());
-      //c[i][j].incr(a[i][k]*b[k][j]);
-      c[i][j].value+=a[i][k]*b[k][j];
+      //int threadLocal = 0;
+      for(k=0;k<SIZE;k++)
+      {
+        //c[i][j].set(a[i][k]*b[k][j]+c[i][j].get());
+        //c[i][j].incr(a[i][k]*b[k][j]);
+        c[l][j].value+=a[l][k]*b[k][j];
+      }
+      //c[l][j].value = threadLocal; 
     }
   }
 /*
@@ -70,7 +75,7 @@ void printResult()
   fclose(fp);
 }
 
-int main(void)
+int main(int argc, char *argv[])
 {
   int i,j,k;
   for(i=0;i<SIZE;i++)
@@ -83,16 +88,16 @@ int main(void)
     }
   }
   //printf("%lu\n%p\n%p\n",sizeof(PaddedInt),&c[0][0],&c[0][1]);
-  pthread_t threads[SIZE];
+  pthread_t threads[THREAD_SIZE];
   //int num=0;
-  struct padded tmp[SIZE];
-  for(i=0;i<SIZE;i++)
+  struct padded tmp[THREAD_SIZE];
+  for(i=0;i<THREAD_SIZE;i++)
   {
     //Index index(i,k,k,j,i,j);
     tmp[i].value=i;
     pthread_create(&threads[i], NULL, run, &tmp[i].value);
   }
-  for(i=0;i<SIZE;i++)pthread_join(threads[i], NULL);
-  //printResult();
+  for(i=0;i<THREAD_SIZE;i++)pthread_join(threads[i], NULL);
+  if(argc>1)printResult();
   return 0;
 }

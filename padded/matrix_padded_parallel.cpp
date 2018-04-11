@@ -94,7 +94,7 @@ int main(void)
     {
       a[i][j]=i+j;
       b[i][j]=i-j;
-      c[i][j].value=0;
+      //c[i][j].value=0;
     }
   }
   //printf("%lu\n%p\n%p\n",sizeof(PaddedInt),&c[0][0],&c[0][1]);

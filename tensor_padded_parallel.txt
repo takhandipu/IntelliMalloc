@@ -1,0 +1,9 @@
+# started on Mon Apr  9 19:35:53 2018
+
+
+ Performance counter stats for './tensor_padded_parallel' (100 runs):
+
+           230,867      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.00% )
+
+       2.796099886 seconds time elapsed                                          ( +-  0.20% )
+

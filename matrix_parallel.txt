@@ -1,9 +1,9 @@
-# started on Thu Apr  5 19:24:49 2018
+# started on Mon Apr  9 19:04:21 2018
 
 
- Performance counter stats for './matrix_parallel' (1000 runs):
+ Performance counter stats for './matrix_parallel' (100 runs):
 
-               317      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.12% )
+             2,037      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.77% )
 
-       0.001472764 seconds time elapsed                                          ( +-  0.70% )
+       0.305280217 seconds time elapsed                                          ( +-  0.79% )
 

@@ -46,5 +46,5 @@ int main(void)
       }
     }
   }
-  //printResult();
+  printResult();
 }

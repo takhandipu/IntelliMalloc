@@ -30,14 +30,19 @@ void *run(void *index)
   fp = fopen(str, "w");
   printf("%d\n",i);
 #endif
-  for(j=0;j<SIZE;j++)
+  for(int l = i; l < SIZE; l+=CORE_COUNT)
   {
-    for(k=0;k<SIZE;k++)
+    for(j=0;j<SIZE;j++)
     {
+      //int threadLocal = 0;
+      for(k=0;k<SIZE;k++)
+      {
 #if PIN_MODE == 1
-      fprintf(fp, "%p\n", &c[i][j]);
+        fprintf(fp, "%p\n", &c[i][j]);
 #endif
-      c[i][j]+= a[i][k]*b[k][j];
+        c[l][j]+= a[l][k]*b[k][j];
+      }
+      //c[l][j]=threadLocal;
     }
   }
 #if PIN_MODE == 1
@@ -64,7 +69,7 @@ void printResult()
   fclose(fp);
 }
 
-int main(void)
+int main(int argc, char *argv[])
 {
   int i,j,k;
   for(i=0;i<SIZE;i++)
@@ -76,13 +81,13 @@ int main(void)
       c[i][j]=0;
     }
   }
-  pthread_t threads[SIZE];
-  int tmp[SIZE];
+  pthread_t threads[THREAD_SIZE];
+  int tmp[THREAD_SIZE];
   //int num=0;
 #if PIN_MODE == 1
   FILE *fp = fopen("parallel_thread_main.txt","w");
 #endif
-  for(i=0;i<SIZE;i++)
+  for(i=0;i<THREAD_SIZE;i++)
   {
     //Index index(i,k,k,j,i,j);
     tmp[i]=i;
@@ -91,8 +96,8 @@ int main(void)
 #endif
     pthread_create(&threads[i], NULL, run, &tmp[i]);
   }
-  for(i=0;i<SIZE;i++)pthread_join(threads[i], NULL);
-  //printResult();
+  for(i=0;i<THREAD_SIZE;i++)pthread_join(threads[i], NULL);
+  if(argc>1)printResult();
 #if PIN_MODE == 1
   fclose(fp);
 #endif

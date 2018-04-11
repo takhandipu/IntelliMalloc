@@ -5,21 +5,6 @@
 
 int  a[SIZE][SIZE], b[SIZE][SIZE], c[SIZE][SIZE];
 
-class Index
-{
-public:
-  int i1;int i2; int j1; int j2; int k1; int k2;
-  Index(int i1,int i2, int j1, int j2, int k1, int k2):
-	i1(i1),
-	i2(i2),
-	j1(j1),
-	j2(j2),
-	k1(k1),
-	k2(k2)
-  {
-  }
-};
-
 void *run(void *index)
 {
   int i = *(int *)index;
@@ -27,19 +12,22 @@ void *run(void *index)
 #if PIN_MODE == 1
   char str[20];
   FILE *fp;
-  sprintf(str, "parallel_thread_%d.txt",i);
+  sprintf(str, "parallel_thread_%d.csv",i+1);
   fp = fopen(str, "w");
-  fprintf(fp,"%d\n",i);
-  fprintf(fp,"%" PRIuPTR  "\n",(uintptr_t)index);
+  //fprintf(fp,"%d\n",i);
+  fprintf(fp,"R,%" PRIuPTR  "\n",(uintptr_t)index);
 #endif
-  for(j=0;j<SIZE;j++)
+  for(int l = i; l < SIZE; l+=CORE_COUNT)
   {
-    for(k=0;k<SIZE;k++)
+    for(j=0;j<SIZE;j++)
     {
-#if PIN_MODE == 1
-      fprintf(fp, "%" PRIuPTR  "\n",(uintptr_t)&c[i][j]);
-#endif
-      c[i][j]+= a[i][k]*b[k][j];
+      for(k=0;k<SIZE;k++)
+      {
+  #if PIN_MODE == 1
+        fprintf(fp, "W,%" PRIuPTR  "\n",(uintptr_t)&c[l][j]);
+  #endif
+        c[l][j]+= a[l][k]*b[k][j];
+      }
     }
   }
 #if PIN_MODE == 1
@@ -79,22 +67,25 @@ int main(void)
       c[i][j]=0;
     }
   }
-  pthread_t threads[SIZE];
-  int tmp[SIZE];
+  pthread_t threads[CORE_COUNT];
+  int tmp[CORE_COUNT];
   //int num=0;
 #if PIN_MODE == 1
-  FILE *fp = fopen("parallel_thread_main.txt","w");
+  char str[20];
+  FILE *fp;
+  sprintf(str, "parallel_thread_%d.csv",0);
+  fp = fopen(str, "w");
 #endif
-  for(i=0;i<SIZE;i++)
+  for(i=0;i<CORE_COUNT;i++)
   {
     //Index index(i,k,k,j,i,j);
     tmp[i]=i;
 #if PIN_MODE == 1
-    fprintf(fp, "%" PRIuPTR  "\n",(uintptr_t)&tmp[i]);
+    fprintf(fp, "W,%" PRIuPTR  "\n",(uintptr_t)&tmp[i]);
 #endif
     pthread_create(&threads[i], NULL, run, &tmp[i]);
   }
-  for(i=0;i<SIZE;i++)pthread_join(threads[i], NULL);
+  for(i=0;i<CORE_COUNT;i++)pthread_join(threads[i], NULL);
   //printResult();
 #if PIN_MODE == 1
   fclose(fp);
