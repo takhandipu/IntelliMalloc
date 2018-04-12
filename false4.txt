@@ -1,0 +1,9 @@
+# started on Tue Apr 10 20:31:39 2018
+
+
+ Performance counter stats for './false4' (100 runs):
+
+             1,665      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  5.31% )
+
+       0.004777146 seconds time elapsed                                          ( +-  3.17% )
+

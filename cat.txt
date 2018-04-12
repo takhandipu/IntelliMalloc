@@ -1,0 +1,1152 @@
+# started on Wed Apr 11 18:45:41 2018
+
+
+ Performance counter stats for './matrix_padded_parallel1' (100 runs):
+
+             3,873      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.03% )
+
+       0.496018835 seconds time elapsed                                          ( +-  0.53% )
+
+# started on Wed Apr 11 18:46:31 2018
+
+
+ Performance counter stats for './matrix_padded_parallel2' (100 runs):
+
+             4,138      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.96% )
+
+       0.531826214 seconds time elapsed                                          ( +-  0.54% )
+
+# started on Wed Apr 11 18:47:25 2018
+
+
+ Performance counter stats for './matrix_padded_parallel3' (100 runs):
+
+             4,046      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.04% )
+
+       0.552061375 seconds time elapsed                                          ( +-  0.47% )
+
+# started on Wed Apr 11 18:48:20 2018
+
+
+ Performance counter stats for './matrix_padded_parallel4' (100 runs):
+
+             3,885      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.99% )
+
+       0.525323294 seconds time elapsed                                          ( +-  0.50% )
+
+# started on Wed Apr 11 18:49:13 2018
+
+
+ Performance counter stats for './matrix_padded_parallel5' (100 runs):
+
+             4,237      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.10% )
+
+       0.564602341 seconds time elapsed                                          ( +-  0.54% )
+
+# started on Wed Apr 11 18:50:10 2018
+
+
+ Performance counter stats for './matrix_padded_parallel6' (100 runs):
+
+             4,597      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.07% )
+
+       0.622449288 seconds time elapsed                                          ( +-  0.50% )
+
+# started on Wed Apr 11 18:51:12 2018
+
+
+ Performance counter stats for './matrix_padded_parallel7' (100 runs):
+
+             4,162      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.20% )
+
+       0.562208351 seconds time elapsed                                          ( +-  0.49% )
+
+# started on Wed Apr 11 18:52:09 2018
+
+
+ Performance counter stats for './matrix_padded_parallel8' (100 runs):
+
+             3,819      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.12% )
+
+       0.520879368 seconds time elapsed                                          ( +-  0.51% )
+
+# started on Wed Apr 11 18:53:01 2018
+
+
+ Performance counter stats for './matrix_padded_parallel9' (100 runs):
+
+             4,082      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.15% )
+
+       0.569869863 seconds time elapsed                                          ( +-  0.50% )
+
+# started on Wed Apr 11 18:53:58 2018
+
+
+ Performance counter stats for './matrix_padded_parallel10' (100 runs):
+
+             4,301      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.15% )
+
+       0.600012287 seconds time elapsed                                          ( +-  0.54% )
+
+# started on Wed Apr 11 18:54:59 2018
+
+
+ Performance counter stats for './matrix_padded_parallel11' (100 runs):
+
+             4,311      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.07% )
+
+       0.620096533 seconds time elapsed                                          ( +-  0.50% )
+
+# started on Wed Apr 11 18:56:01 2018
+
+
+ Performance counter stats for './matrix_padded_parallel12' (100 runs):
+
+             4,524      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.97% )
+
+       0.626850577 seconds time elapsed                                          ( +-  0.62% )
+
+# started on Wed Apr 11 18:57:04 2018
+
+
+ Performance counter stats for './matrix_padded_parallel13' (100 runs):
+
+             4,267      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.20% )
+
+       0.626843290 seconds time elapsed                                          ( +-  0.47% )
+
+# started on Wed Apr 11 18:58:07 2018
+
+
+ Performance counter stats for './matrix_padded_parallel14' (100 runs):
+
+             4,372      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.18% )
+
+       0.640893054 seconds time elapsed                                          ( +-  0.62% )
+
+# started on Wed Apr 11 18:59:11 2018
+
+
+ Performance counter stats for './matrix_padded_parallel15' (100 runs):
+
+             4,109      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.04% )
+
+       0.575924549 seconds time elapsed                                          ( +-  0.44% )
+
+# started on Wed Apr 11 19:00:09 2018
+
+
+ Performance counter stats for './matrix_padded_parallel16' (100 runs):
+
+             3,981      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.21% )
+
+       0.564235230 seconds time elapsed                                          ( +-  0.47% )
+
+# started on Wed Apr 11 19:01:06 2018
+
+
+ Performance counter stats for './matrix_padded_parallel17' (100 runs):
+
+             4,113      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.02% )
+
+       0.585144476 seconds time elapsed                                          ( +-  0.46% )
+
+# started on Wed Apr 11 19:02:05 2018
+
+
+ Performance counter stats for './matrix_padded_parallel18' (100 runs):
+
+             4,258      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.15% )
+
+       0.621954962 seconds time elapsed                                          ( +-  0.50% )
+
+# started on Wed Apr 11 19:03:07 2018
+
+
+ Performance counter stats for './matrix_padded_parallel19' (100 runs):
+
+             4,244      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.26% )
+
+       0.643496601 seconds time elapsed                                          ( +-  0.43% )
+
+# started on Wed Apr 11 19:04:12 2018
+
+
+ Performance counter stats for './matrix_padded_parallel20' (100 runs):
+
+             4,280      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.17% )
+
+       0.638791935 seconds time elapsed                                          ( +-  0.54% )
+
+# started on Wed Apr 11 19:05:16 2018
+
+
+ Performance counter stats for './matrix_padded_parallel21' (100 runs):
+
+             4,199      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.18% )
+
+       0.633831859 seconds time elapsed                                          ( +-  0.42% )
+
+# started on Wed Apr 11 19:06:20 2018
+
+
+ Performance counter stats for './matrix_padded_parallel22' (100 runs):
+
+             3,850      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.17% )
+
+       0.559675694 seconds time elapsed                                          ( +-  0.42% )
+
+# started on Wed Apr 11 19:07:16 2018
+
+
+ Performance counter stats for './matrix_padded_parallel23' (100 runs):
+
+             3,778      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.25% )
+
+       0.558718679 seconds time elapsed                                          ( +-  0.42% )
+
+# started on Wed Apr 11 19:08:12 2018
+
+
+ Performance counter stats for './matrix_padded_parallel24' (100 runs):
+
+             4,064      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.24% )
+
+       0.630398670 seconds time elapsed                                          ( +-  0.42% )
+
+# started on Wed Apr 11 19:09:15 2018
+
+
+ Performance counter stats for './matrix_padded_parallel25' (100 runs):
+
+             4,054      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.14% )
+
+       0.646213545 seconds time elapsed                                          ( +-  0.41% )
+
+# started on Wed Apr 11 19:10:20 2018
+
+
+ Performance counter stats for './matrix_padded_parallel26' (100 runs):
+
+             3,677      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.19% )
+
+       0.590477116 seconds time elapsed                                          ( +-  1.22% )
+
+# started on Wed Apr 11 19:11:20 2018
+
+
+ Performance counter stats for './matrix_padded_parallel27' (100 runs):
+
+             3,999      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.75% )
+
+       0.954111246 seconds time elapsed                                          ( +-  0.86% )
+
+# started on Wed Apr 11 19:12:56 2018
+
+
+ Performance counter stats for './matrix_padded_parallel28' (100 runs):
+
+             3,827      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.27% )
+
+       0.654299504 seconds time elapsed                                          ( +-  1.07% )
+
+# started on Wed Apr 11 19:14:02 2018
+
+
+ Performance counter stats for './matrix_padded_parallel29' (100 runs):
+
+             3,635      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.94% )
+
+       0.695020330 seconds time elapsed                                          ( +-  1.78% )
+
+# started on Wed Apr 11 19:15:12 2018
+
+
+ Performance counter stats for './matrix_padded_parallel30' (100 runs):
+
+             3,961      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.72% )
+
+       0.742504200 seconds time elapsed                                          ( +-  1.77% )
+
+# started on Wed Apr 11 19:16:27 2018
+
+
+ Performance counter stats for './matrix_padded_parallel31' (100 runs):
+
+             3,751      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.20% )
+
+       0.609926968 seconds time elapsed                                          ( +-  0.41% )
+
+# started on Wed Apr 11 19:17:28 2018
+
+
+ Performance counter stats for './matrix_padded_parallel32' (100 runs):
+
+             3,559      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.28% )
+
+       0.586364181 seconds time elapsed                                          ( +-  0.57% )
+
+# started on Wed Apr 11 19:18:27 2018
+
+
+ Performance counter stats for './matrix_padded_parallel33' (100 runs):
+
+             3,750      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.28% )
+
+       0.627623001 seconds time elapsed                                          ( +-  0.70% )
+
+# started on Wed Apr 11 19:19:30 2018
+
+
+ Performance counter stats for './matrix_padded_parallel34' (100 runs):
+
+             3,837      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.25% )
+
+       0.657195422 seconds time elapsed                                          ( +-  0.48% )
+
+# started on Wed Apr 11 19:20:36 2018
+
+
+ Performance counter stats for './matrix_padded_parallel35' (100 runs):
+
+             3,479      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.56% )
+
+       0.598437271 seconds time elapsed                                          ( +-  0.69% )
+
+# started on Wed Apr 11 19:21:36 2018
+
+
+ Performance counter stats for './matrix_padded_parallel36' (100 runs):
+
+             3,820      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.47% )
+
+       0.662545066 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 19:22:43 2018
+
+
+ Performance counter stats for './matrix_padded_parallel37' (100 runs):
+
+             3,681      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.33% )
+
+       0.680170169 seconds time elapsed                                          ( +-  0.45% )
+
+# started on Wed Apr 11 19:23:51 2018
+
+
+ Performance counter stats for './matrix_padded_parallel38' (100 runs):
+
+             3,580      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.37% )
+
+       0.607029837 seconds time elapsed                                          ( +-  0.45% )
+
+# started on Wed Apr 11 19:24:52 2018
+
+
+ Performance counter stats for './matrix_padded_parallel39' (100 runs):
+
+             3,427      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.32% )
+
+       0.593318384 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 19:25:52 2018
+
+
+ Performance counter stats for './matrix_padded_parallel40' (100 runs):
+
+             3,697      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.29% )
+
+       0.668295135 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 19:26:59 2018
+
+
+ Performance counter stats for './matrix_padded_parallel41' (100 runs):
+
+             3,827      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.39% )
+
+       0.692824092 seconds time elapsed                                          ( +-  0.41% )
+
+# started on Wed Apr 11 19:28:08 2018
+
+
+ Performance counter stats for './matrix_padded_parallel42' (100 runs):
+
+             3,443      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.40% )
+
+       0.621443990 seconds time elapsed                                          ( +-  0.69% )
+
+# started on Wed Apr 11 19:29:11 2018
+
+
+ Performance counter stats for './matrix_padded_parallel43' (100 runs):
+
+             3,444      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.41% )
+
+       0.619692088 seconds time elapsed                                          ( +-  0.61% )
+
+# started on Wed Apr 11 19:30:13 2018
+
+
+ Performance counter stats for './matrix_padded_parallel44' (100 runs):
+
+             3,396      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.36% )
+
+       0.618235645 seconds time elapsed                                          ( +-  0.44% )
+
+# started on Wed Apr 11 19:31:15 2018
+
+
+ Performance counter stats for './matrix_padded_parallel45' (100 runs):
+
+             3,483      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.54% )
+
+       0.654985680 seconds time elapsed                                          ( +-  0.62% )
+
+# started on Wed Apr 11 19:32:21 2018
+
+
+ Performance counter stats for './matrix_padded_parallel46' (100 runs):
+
+             3,503      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.37% )
+
+       0.629522438 seconds time elapsed                                          ( +-  0.43% )
+
+# started on Wed Apr 11 19:33:24 2018
+
+
+ Performance counter stats for './matrix_padded_parallel47' (100 runs):
+
+             3,337      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.47% )
+
+       0.625130377 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 19:34:27 2018
+
+
+ Performance counter stats for './matrix_padded_parallel48' (100 runs):
+
+             3,643      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.57% )
+
+       0.698008311 seconds time elapsed                                          ( +-  0.47% )
+
+# started on Wed Apr 11 19:35:37 2018
+
+
+ Performance counter stats for './matrix_padded_parallel49' (100 runs):
+
+             3,264      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.49% )
+
+       0.631506756 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 19:36:40 2018
+
+
+ Performance counter stats for './matrix_padded_parallel50' (100 runs):
+
+             3,437      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.54% )
+
+       0.656981161 seconds time elapsed                                          ( +-  0.50% )
+
+# started on Wed Apr 11 19:37:46 2018
+
+
+ Performance counter stats for './matrix_padded_parallel51' (100 runs):
+
+             3,295      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.32% )
+
+       0.635868692 seconds time elapsed                                          ( +-  0.36% )
+
+# started on Wed Apr 11 19:38:50 2018
+
+
+ Performance counter stats for './matrix_padded_parallel52' (100 runs):
+
+             3,191      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.72% )
+
+       0.639597101 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 19:39:54 2018
+
+
+ Performance counter stats for './matrix_padded_parallel53' (100 runs):
+
+             3,273      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.58% )
+
+       0.639393974 seconds time elapsed                                          ( +-  0.33% )
+
+# started on Wed Apr 11 19:40:59 2018
+
+
+ Performance counter stats for './matrix_padded_parallel54' (100 runs):
+
+             3,237      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.35% )
+
+       0.644909551 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 19:42:03 2018
+
+
+ Performance counter stats for './matrix_padded_parallel55' (100 runs):
+
+             3,235      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.57% )
+
+       0.650581753 seconds time elapsed                                          ( +-  0.34% )
+
+# started on Wed Apr 11 19:43:09 2018
+
+
+ Performance counter stats for './matrix_padded_parallel56' (100 runs):
+
+             3,657      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.35% )
+
+       0.714866329 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 19:44:20 2018
+
+
+ Performance counter stats for './matrix_padded_parallel57' (100 runs):
+
+             3,176      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.48% )
+
+       0.651728909 seconds time elapsed                                          ( +-  0.37% )
+
+# started on Wed Apr 11 19:45:26 2018
+
+
+ Performance counter stats for './matrix_padded_parallel58' (100 runs):
+
+             3,246      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.45% )
+
+       0.670302943 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 19:46:33 2018
+
+
+ Performance counter stats for './matrix_padded_parallel59' (100 runs):
+
+             3,204      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.26% )
+
+       0.657602406 seconds time elapsed                                          ( +-  0.41% )
+
+# started on Wed Apr 11 19:47:39 2018
+
+
+ Performance counter stats for './matrix_padded_parallel60' (100 runs):
+
+             3,526      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.30% )
+
+       0.722015075 seconds time elapsed                                          ( +-  0.33% )
+
+# started on Wed Apr 11 19:48:52 2018
+
+
+ Performance counter stats for './matrix_padded_parallel61' (100 runs):
+
+             3,108      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.56% )
+
+       0.661428330 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 19:49:58 2018
+
+
+ Performance counter stats for './matrix_padded_parallel62' (100 runs):
+
+             3,581      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.43% )
+
+       0.730521667 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 19:51:12 2018
+
+
+ Performance counter stats for './matrix_padded_parallel63' (100 runs):
+
+             3,546      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.57% )
+
+       0.737324559 seconds time elapsed                                          ( +-  0.34% )
+
+# started on Wed Apr 11 19:52:26 2018
+
+
+ Performance counter stats for './matrix_padded_parallel64' (100 runs):
+
+             3,014      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.59% )
+
+       0.670740526 seconds time elapsed                                          ( +-  0.63% )
+
+# started on Wed Apr 11 19:53:33 2018
+
+
+ Performance counter stats for './matrix_padded_parallel65' (100 runs):
+
+             3,396      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.85% )
+
+       0.715567248 seconds time elapsed                                          ( +-  0.45% )
+
+# started on Wed Apr 11 19:54:45 2018
+
+
+ Performance counter stats for './matrix_padded_parallel66' (100 runs):
+
+             3,793      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.42% )
+
+       0.793449562 seconds time elapsed                                          ( +-  0.61% )
+
+# started on Wed Apr 11 19:56:04 2018
+
+
+ Performance counter stats for './matrix_padded_parallel67' (100 runs):
+
+             3,224      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.52% )
+
+       0.700418828 seconds time elapsed                                          ( +-  0.40% )
+
+# started on Wed Apr 11 19:57:15 2018
+
+
+ Performance counter stats for './matrix_padded_parallel68' (100 runs):
+
+             3,501      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.37% )
+
+       0.744086639 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 19:58:29 2018
+
+
+ Performance counter stats for './matrix_padded_parallel69' (100 runs):
+
+             3,023      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.44% )
+
+       0.678733508 seconds time elapsed                                          ( +-  0.34% )
+
+# started on Wed Apr 11 19:59:38 2018
+
+
+ Performance counter stats for './matrix_padded_parallel70' (100 runs):
+
+             2,977      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.66% )
+
+       0.690235213 seconds time elapsed                                          ( +-  0.45% )
+
+# started on Wed Apr 11 20:00:47 2018
+
+
+ Performance counter stats for './matrix_padded_parallel71' (100 runs):
+
+             3,518      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.51% )
+
+       0.754015764 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 20:02:03 2018
+
+
+ Performance counter stats for './matrix_padded_parallel72' (100 runs):
+
+             3,602      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.42% )
+
+       0.766578645 seconds time elapsed                                          ( +-  0.32% )
+
+# started on Wed Apr 11 20:03:19 2018
+
+
+ Performance counter stats for './matrix_padded_parallel73' (100 runs):
+
+             3,638      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.44% )
+
+       0.784150247 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 20:04:38 2018
+
+
+ Performance counter stats for './matrix_padded_parallel74' (100 runs):
+
+             3,117      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.34% )
+
+       0.696467143 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 20:05:48 2018
+
+
+ Performance counter stats for './matrix_padded_parallel75' (100 runs):
+
+             3,025      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.46% )
+
+       0.698251740 seconds time elapsed                                          ( +-  0.34% )
+
+# started on Wed Apr 11 20:06:58 2018
+
+
+ Performance counter stats for './matrix_padded_parallel76' (100 runs):
+
+             3,159      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.35% )
+
+       0.712096128 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 20:08:10 2018
+
+
+ Performance counter stats for './matrix_padded_parallel77' (100 runs):
+
+             3,107      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.67% )
+
+       0.707350275 seconds time elapsed                                          ( +-  0.41% )
+
+# started on Wed Apr 11 20:09:21 2018
+
+
+ Performance counter stats for './matrix_padded_parallel78' (100 runs):
+
+             3,151      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.65% )
+
+       0.719028384 seconds time elapsed                                          ( +-  0.92% )
+
+# started on Wed Apr 11 20:10:33 2018
+
+
+ Performance counter stats for './matrix_padded_parallel79' (100 runs):
+
+             3,139      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.35% )
+
+       0.721395993 seconds time elapsed                                          ( +-  0.37% )
+
+# started on Wed Apr 11 20:11:45 2018
+
+
+ Performance counter stats for './matrix_padded_parallel80' (100 runs):
+
+             3,564      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.56% )
+
+       0.783935557 seconds time elapsed                                          ( +-  0.40% )
+
+# started on Wed Apr 11 20:13:04 2018
+
+
+ Performance counter stats for './matrix_padded_parallel81' (100 runs):
+
+             3,604      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.20% )
+
+       0.797319521 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 20:14:24 2018
+
+
+ Performance counter stats for './matrix_padded_parallel82' (100 runs):
+
+             3,169      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.39% )
+
+       0.723614079 seconds time elapsed                                          ( +-  0.42% )
+
+# started on Wed Apr 11 20:15:37 2018
+
+
+ Performance counter stats for './matrix_padded_parallel83' (100 runs):
+
+             3,072      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.36% )
+
+       0.720959955 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 20:16:49 2018
+
+
+ Performance counter stats for './matrix_padded_parallel84' (100 runs):
+
+             3,118      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.35% )
+
+       0.723758954 seconds time elapsed                                          ( +-  0.37% )
+
+# started on Wed Apr 11 20:18:02 2018
+
+
+ Performance counter stats for './matrix_padded_parallel85' (100 runs):
+
+             3,083      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.21% )
+
+       0.721052612 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 20:19:14 2018
+
+
+ Performance counter stats for './matrix_padded_parallel86' (100 runs):
+
+             3,219      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.48% )
+
+       0.733890566 seconds time elapsed                                          ( +-  0.43% )
+
+# started on Wed Apr 11 20:20:28 2018
+
+
+ Performance counter stats for './matrix_padded_parallel87' (100 runs):
+
+             3,153      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.79% )
+
+       0.730446061 seconds time elapsed                                          ( +-  0.40% )
+
+# started on Wed Apr 11 20:21:41 2018
+
+
+ Performance counter stats for './matrix_padded_parallel88' (100 runs):
+
+             3,731      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  5.16% )
+
+       0.751826946 seconds time elapsed                                          ( +-  0.73% )
+
+# started on Wed Apr 11 20:22:56 2018
+
+
+ Performance counter stats for './matrix_padded_parallel89' (100 runs):
+
+             3,121      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.89% )
+
+       0.740651467 seconds time elapsed                                          ( +-  0.34% )
+
+# started on Wed Apr 11 20:24:11 2018
+
+
+ Performance counter stats for './matrix_padded_parallel90' (100 runs):
+
+             3,115      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.45% )
+
+       0.735318098 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 20:25:25 2018
+
+
+ Performance counter stats for './matrix_padded_parallel91' (100 runs):
+
+             3,137      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.15% )
+
+       0.747794268 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 20:26:40 2018
+
+
+ Performance counter stats for './matrix_padded_parallel92' (100 runs):
+
+             3,167      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.37% )
+
+       0.750542917 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 20:27:55 2018
+
+
+ Performance counter stats for './matrix_padded_parallel93' (100 runs):
+
+             3,129      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.18% )
+
+       0.752349622 seconds time elapsed                                          ( +-  0.43% )
+
+# started on Wed Apr 11 20:29:11 2018
+
+
+ Performance counter stats for './matrix_padded_parallel94' (100 runs):
+
+             3,050      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.41% )
+
+       0.756018332 seconds time elapsed                                          ( +-  0.31% )
+
+# started on Wed Apr 11 20:30:26 2018
+
+
+ Performance counter stats for './matrix_padded_parallel95' (100 runs):
+
+             3,137      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.32% )
+
+       0.760125932 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 20:31:43 2018
+
+
+ Performance counter stats for './matrix_padded_parallel96' (100 runs):
+
+             3,483      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.30% )
+
+       0.823289425 seconds time elapsed                                          ( +-  0.40% )
+
+# started on Wed Apr 11 20:33:05 2018
+
+
+ Performance counter stats for './matrix_padded_parallel97' (100 runs):
+
+             3,206      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.39% )
+
+       0.779709483 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 20:34:24 2018
+
+
+ Performance counter stats for './matrix_padded_parallel98' (100 runs):
+
+             3,153      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.33% )
+
+       0.773969403 seconds time elapsed                                          ( +-  0.44% )
+
+# started on Wed Apr 11 20:35:41 2018
+
+
+ Performance counter stats for './matrix_padded_parallel99' (100 runs):
+
+             3,166      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.26% )
+
+       0.777858953 seconds time elapsed                                          ( +-  0.36% )
+
+# started on Wed Apr 11 20:36:59 2018
+
+
+ Performance counter stats for './matrix_padded_parallel100' (100 runs):
+
+             3,142      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.18% )
+
+       0.785724782 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 20:38:18 2018
+
+
+ Performance counter stats for './matrix_padded_parallel101' (100 runs):
+
+             3,177      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.45% )
+
+       0.788540434 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 20:39:37 2018
+
+
+ Performance counter stats for './matrix_padded_parallel102' (100 runs):
+
+             3,242      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.35% )
+
+       0.787413952 seconds time elapsed                                          ( +-  0.37% )
+
+# started on Wed Apr 11 20:40:56 2018
+
+
+ Performance counter stats for './matrix_padded_parallel103' (100 runs):
+
+             3,178      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.47% )
+
+       0.786422660 seconds time elapsed                                          ( +-  0.37% )
+
+# started on Wed Apr 11 20:42:15 2018
+
+
+ Performance counter stats for './matrix_padded_parallel104' (100 runs):
+
+             3,141      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.22% )
+
+       0.792910138 seconds time elapsed                                          ( +-  0.37% )
+
+# started on Wed Apr 11 20:43:35 2018
+
+
+ Performance counter stats for './matrix_padded_parallel105' (100 runs):
+
+             3,096      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.39% )
+
+       0.794874986 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 20:44:55 2018
+
+
+ Performance counter stats for './matrix_padded_parallel106' (100 runs):
+
+             3,024      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.27% )
+
+       0.800530314 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 20:46:15 2018
+
+
+ Performance counter stats for './matrix_padded_parallel107' (100 runs):
+
+             3,081      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.33% )
+
+       0.802971784 seconds time elapsed                                          ( +-  0.34% )
+
+# started on Wed Apr 11 20:47:36 2018
+
+
+ Performance counter stats for './matrix_padded_parallel108' (100 runs):
+
+             3,142      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.25% )
+
+       0.822996090 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 20:48:58 2018
+
+
+ Performance counter stats for './matrix_padded_parallel109' (100 runs):
+
+             3,137      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.36% )
+
+       0.809041190 seconds time elapsed                                          ( +-  0.37% )
+
+# started on Wed Apr 11 20:50:19 2018
+
+
+ Performance counter stats for './matrix_padded_parallel110' (100 runs):
+
+             3,233      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.21% )
+
+       0.820505401 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 20:51:42 2018
+
+
+ Performance counter stats for './matrix_padded_parallel111' (100 runs):
+
+             3,119      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.19% )
+
+       0.813814299 seconds time elapsed                                          ( +-  0.32% )
+
+# started on Wed Apr 11 20:53:03 2018
+
+
+ Performance counter stats for './matrix_padded_parallel112' (100 runs):
+
+             3,488      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.23% )
+
+       0.874132917 seconds time elapsed                                          ( +-  0.33% )
+
+# started on Wed Apr 11 20:54:31 2018
+
+
+ Performance counter stats for './matrix_padded_parallel113' (100 runs):
+
+             3,153      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.23% )
+
+       0.819231708 seconds time elapsed                                          ( +-  0.29% )
+
+# started on Wed Apr 11 20:55:53 2018
+
+
+ Performance counter stats for './matrix_padded_parallel114' (100 runs):
+
+             3,155      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.20% )
+
+       0.820413817 seconds time elapsed                                          ( +-  0.36% )
+
+# started on Wed Apr 11 20:57:15 2018
+
+
+ Performance counter stats for './matrix_padded_parallel115' (100 runs):
+
+             3,260      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.41% )
+
+       0.829713147 seconds time elapsed                                          ( +-  0.38% )
+
+# started on Wed Apr 11 20:58:39 2018
+
+
+ Performance counter stats for './matrix_padded_parallel116' (100 runs):
+
+             3,088      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.21% )
+
+       0.826038747 seconds time elapsed                                          ( +-  0.34% )
+
+# started on Wed Apr 11 21:00:02 2018
+
+
+ Performance counter stats for './matrix_padded_parallel117' (100 runs):
+
+             3,134      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.30% )
+
+       0.834294524 seconds time elapsed                                          ( +-  0.33% )
+
+# started on Wed Apr 11 21:01:25 2018
+
+
+ Performance counter stats for './matrix_padded_parallel118' (100 runs):
+
+             3,162      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.35% )
+
+       0.846220661 seconds time elapsed                                          ( +-  0.34% )
+
+# started on Wed Apr 11 21:02:50 2018
+
+
+ Performance counter stats for './matrix_padded_parallel119' (100 runs):
+
+             3,158      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.28% )
+
+       0.835288518 seconds time elapsed                                          ( +-  0.33% )
+
+# started on Wed Apr 11 21:04:14 2018
+
+
+ Performance counter stats for './matrix_padded_parallel120' (100 runs):
+
+             3,549      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.29% )
+
+       0.902150857 seconds time elapsed                                          ( +-  0.32% )
+
+# started on Wed Apr 11 21:05:45 2018
+
+
+ Performance counter stats for './matrix_padded_parallel121' (100 runs):
+
+             3,105      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.12% )
+
+       0.840063398 seconds time elapsed                                          ( +-  0.32% )
+
+# started on Wed Apr 11 21:07:09 2018
+
+
+ Performance counter stats for './matrix_padded_parallel122' (100 runs):
+
+             3,189      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.20% )
+
+       0.840223434 seconds time elapsed                                          ( +-  0.39% )
+
+# started on Wed Apr 11 21:08:33 2018
+
+
+ Performance counter stats for './matrix_padded_parallel123' (100 runs):
+
+             3,241      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.32% )
+
+       0.861944438 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 21:10:00 2018
+
+
+ Performance counter stats for './matrix_padded_parallel124' (100 runs):
+
+             3,759      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  5.43% )
+
+       0.914004882 seconds time elapsed                                          ( +-  0.49% )
+
+# started on Wed Apr 11 21:11:31 2018
+
+
+ Performance counter stats for './matrix_padded_parallel125' (100 runs):
+
+             3,163      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.32% )
+
+       0.847051006 seconds time elapsed                                          ( +-  0.29% )
+
+# started on Wed Apr 11 21:12:56 2018
+
+
+ Performance counter stats for './matrix_padded_parallel126' (100 runs):
+
+             3,570      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.21% )
+
+       0.919766528 seconds time elapsed                                          ( +-  0.35% )
+
+# started on Wed Apr 11 21:14:29 2018
+
+
+ Performance counter stats for './matrix_padded_parallel127' (100 runs):
+
+             3,351      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.16% )
+
+       0.885341243 seconds time elapsed                                          ( +-  0.30% )
+
+# started on Wed Apr 11 21:15:57 2018
+
+
+ Performance counter stats for './matrix_padded_parallel128' (100 runs):
+
+             3,082      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.42% )
+
+       0.850253410 seconds time elapsed                                          ( +-  0.35% )
+

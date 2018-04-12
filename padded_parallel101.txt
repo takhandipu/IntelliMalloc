@@ -1,0 +1,9 @@
+# started on Wed Apr 11 20:38:18 2018
+
+
+ Performance counter stats for './matrix_padded_parallel101' (100 runs):
+
+             3,177      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.45% )
+
+       0.788540434 seconds time elapsed                                          ( +-  0.38% )
+

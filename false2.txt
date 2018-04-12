@@ -1,0 +1,9 @@
+# started on Tue Apr 10 20:31:38 2018
+
+
+ Performance counter stats for './false2' (100 runs):
+
+             2,027      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.70% )
+
+       0.006440452 seconds time elapsed                                          ( +-  1.08% )
+

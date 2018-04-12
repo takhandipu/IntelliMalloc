@@ -1,0 +1,9 @@
+# started on Tue Apr 10 20:22:02 2018
+
+
+ Performance counter stats for './a.out' (100 runs):
+
+               825      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  4.09% )
+
+       0.001221984 seconds time elapsed                                          ( +-  1.16% )
+

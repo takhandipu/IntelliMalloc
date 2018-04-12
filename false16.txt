@@ -1,0 +1,9 @@
+# started on Tue Apr 10 20:31:40 2018
+
+
+ Performance counter stats for './false16' (100 runs):
+
+               442      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  6.59% )
+
+       0.004373849 seconds time elapsed                                          ( +-  3.63% )
+

@@ -2,15 +2,14 @@
 #include <stdio.h>
 #include "matrix.h"
 
-class PaddedInt
-{
-public:
-  int value;
-  int padding[15];
-  void set(int val){value=val;}
-  int get(){return value;}
-  void incr(int val){value+=val;}
-};
+#ifdef PADDING_DISTANCE
+#define DISTANCE PADDING_DISTANCE
+#else
+#define DISTANCE 1
+#endif
+
+int  a[SIZE][SIZE], b[SIZE][SIZE];
+int c[SIZE][SIZE*DISTANCE];
 
 struct padded
 {
@@ -18,30 +17,24 @@ int value;
 int padding[15];
 };
 
-int  a[SIZE][SIZE], b[SIZE][SIZE];
-/*PaddedInt*/struct padded c[SIZE][SIZE];
-
-class Index
-{
-public:
-  int i1;int i2; int j1; int j2; int k1; int k2;
-  Index(int i1,int i2, int j1, int j2, int k1, int k2):
-	i1(i1),
-	i2(i2),
-	j1(j1),
-	j2(j2),
-	k1(k1),
-	k2(k2)
-  {
-  }
-};
-
 void *run(void *index)
 {
   int i = *(int *)index;
   int j,k;
-  for(int l = i; l < SIZE; l+=CORE_COUNT)
+  int mod = SIZE % CORE_COUNT;
+  int number = SIZE / CORE_COUNT;
+  int start;
+  if(i < mod)
   {
+    number += 1;
+    start = i * number;
+  }
+  else
+  {
+    start = (i * number)+mod;
+  }
+  for(int l = start; l - start < number; l++)
+  { 
     for(j=0;j<SIZE;j++)
     {
       //int threadLocal = 0;
@@ -49,15 +42,11 @@ void *run(void *index)
       {
         //c[i][j].set(a[i][k]*b[k][j]+c[i][j].get());
         //c[i][j].incr(a[i][k]*b[k][j]);
-        c[l][j].value+=a[l][k]*b[k][j];
+        c[l][j*DISTANCE]+=a[l][k]*b[k][j];
       }
       //c[l][j].value = threadLocal; 
     }
   }
-/*
-Index * castedIndex = (Index *)index;
-c[castedIndex->k1][castedIndex->k2] += a[castedIndex->i1][castedIndex->i2]*b[castedIndex->j1][castedIndex->j2];
-*/
 }
 
 void printResult()
@@ -68,7 +57,7 @@ void printResult()
   {
     for(j=0;j<SIZE;j++)
     {
-      fprintf(fp,"%d ",c[i][j].value);
+      fprintf(fp,"%d ",c[i][j*DISTANCE]);
     }
     fprintf(fp,"\n");
   }
@@ -84,7 +73,7 @@ int main(int argc, char *argv[])
     {
       a[i][j]=i+j;
       b[i][j]=i-j;
-      c[i][j].value=0;
+      c[i][j*DISTANCE]=0;
     }
   }
   //printf("%lu\n%p\n%p\n",sizeof(PaddedInt),&c[0][0],&c[0][1]);

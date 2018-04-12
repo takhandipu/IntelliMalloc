@@ -1,0 +1,9 @@
+# started on Tue Apr 10 20:31:40 2018
+
+
+ Performance counter stats for './false8' (100 runs):
+
+             1,203      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  6.55% )
+
+       0.004539807 seconds time elapsed                                          ( +-  3.73% )
+
