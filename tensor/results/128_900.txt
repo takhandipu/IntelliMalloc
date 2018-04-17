@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:35:22 2018
+
+
+ Performance counter stats for './128_900':
+
+            65,279      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.449525092 seconds time elapsed
+

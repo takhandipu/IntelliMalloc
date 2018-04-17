@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:33:49 2018
+
+
+ Performance counter stats for './2_1500':
+
+            43,510      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       1.045697649 seconds time elapsed
+

@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:33:25 2018
+
+
+ Performance counter stats for './1_300':
+
+            37,370      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.094626967 seconds time elapsed
+

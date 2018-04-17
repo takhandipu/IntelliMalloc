@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:35:08 2018
+
+
+ Performance counter stats for './64_1200':
+
+            78,856      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.791507636 seconds time elapsed
+

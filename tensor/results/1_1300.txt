@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:33:30 2018
+
+
+ Performance counter stats for './1_1300':
+
+            56,427      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.852563594 seconds time elapsed
+

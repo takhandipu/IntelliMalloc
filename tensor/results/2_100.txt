@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:33:41 2018
+
+
+ Performance counter stats for './2_100':
+
+            32,751      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.057264752 seconds time elapsed
+

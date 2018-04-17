@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:34:47 2018
+
+
+ Performance counter stats for './32_300':
+
+            46,114      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.093001853 seconds time elapsed
+

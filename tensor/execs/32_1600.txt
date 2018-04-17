@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:34:55 2018
+
+
+ Performance counter stats for './32_1600':
+
+            38,791      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       1.201421299 seconds time elapsed
+

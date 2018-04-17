@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:33:43 2018
+
+
+ Performance counter stats for './2_800':
+
+            70,108      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.367036151 seconds time elapsed
+

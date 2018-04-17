@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:35:05 2018
+
+
+ Performance counter stats for './64_700':
+
+            55,205      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.287661916 seconds time elapsed
+

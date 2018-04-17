@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:34:36 2018
+
+
+ Performance counter stats for './16_1400':
+
+            41,412      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.830109477 seconds time elapsed
+

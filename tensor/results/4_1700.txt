@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:34:07 2018
+
+
+ Performance counter stats for './4_1700':
+
+            48,870      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       1.224961168 seconds time elapsed
+

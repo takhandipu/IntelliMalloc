@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:34:58 2018
+
+
+ Performance counter stats for './32_1800':
+
+            47,005      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       1.408181756 seconds time elapsed
+

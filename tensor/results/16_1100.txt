@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:34:34 2018
+
+
+ Performance counter stats for './16_1100':
+
+            57,372      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.629926138 seconds time elapsed
+

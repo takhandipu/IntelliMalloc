@@ -1,17 +1,18 @@
 #include <unsupported/Eigen/CXX11/Tensor>
-//#include <unsupported/Eigen/CXX11/ThreadPool>
 #include <iostream>
-#include <future>
-#include <Eigen/Core>
 
+#ifdef MSIZE
+#define SIZE MSIZE
+#else
 #define SIZE 1000
+#endif
 
 using namespace std;
-Eigen::Tensor<int, 2> a(SIZE,SIZE);
+Eigen::Tensor<float, 2> a(SIZE,SIZE);
 
-Eigen::Tensor<int, 2> b(SIZE,SIZE);
+Eigen::Tensor<float, 2> b(SIZE,SIZE);
 
-Eigen::Tensor<int, 2> c(SIZE,SIZE);
+Eigen::Tensor<float, 2> c(SIZE,SIZE);
 
 Eigen::array<Eigen::IndexPair<int>, 1> dimension = {Eigen::IndexPair<int>(1,0)};
 

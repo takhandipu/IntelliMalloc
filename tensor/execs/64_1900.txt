@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:35:16 2018
+
+
+ Performance counter stats for './64_1900':
+
+            53,390      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       1.647296673 seconds time elapsed
+

@@ -1,0 +1,9 @@
+# started on Tue Apr 17 09:34:19 2018
+
+
+ Performance counter stats for './8_1300':
+
+            45,136      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+
+       0.775785267 seconds time elapsed
+
