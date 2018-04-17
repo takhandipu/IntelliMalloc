@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:50 2018
+# started on Tue Apr 17 11:33:00 2018
 
 
- Performance counter stats for './32_1100':
+ Performance counter stats for './32_1100' (100 runs):
 
-            39,843      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            48,931      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.40% )
 
-       0.548750990 seconds time elapsed
+       0.545760540 seconds time elapsed                                          ( +-  0.89% )
 

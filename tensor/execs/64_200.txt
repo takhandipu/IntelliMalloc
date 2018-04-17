@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:35:03 2018
+# started on Tue Apr 17 11:51:01 2018
 
 
- Performance counter stats for './64_200':
+ Performance counter stats for './64_200' (100 runs):
 
-            40,299      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            41,757      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.60% )
 
-       0.072657117 seconds time elapsed
+       0.063672461 seconds time elapsed                                          ( +-  1.50% )
 

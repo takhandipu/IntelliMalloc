@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:30 2018
+# started on Tue Apr 17 11:08:10 2018
 
 
- Performance counter stats for './16_300':
+ Performance counter stats for './16_300' (100 runs):
 
-            37,114      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            40,949      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.62% )
 
-       0.097241317 seconds time elapsed
+       0.090794963 seconds time elapsed                                          ( +-  1.04% )
 

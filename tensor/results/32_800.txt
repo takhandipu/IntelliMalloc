@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:48 2018
+# started on Tue Apr 17 11:30:59 2018
 
 
- Performance counter stats for './32_800':
+ Performance counter stats for './32_800' (100 runs):
 
-            62,324      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            58,235      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.85% )
 
-       0.317504922 seconds time elapsed
+       0.319699760 seconds time elapsed                                          ( +-  1.01% )
 

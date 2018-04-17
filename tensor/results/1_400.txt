@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:33:26 2018
+# started on Tue Apr 17 09:43:16 2018
 
 
- Performance counter stats for './1_400':
+ Performance counter stats for './1_400' (100 runs):
 
-            45,630      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            40,710      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.42% )
 
-       0.125688358 seconds time elapsed
+       0.118450401 seconds time elapsed                                          ( +-  1.00% )
 

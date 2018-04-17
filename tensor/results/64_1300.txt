@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:35:08 2018
+# started on Tue Apr 17 11:56:25 2018
 
 
- Performance counter stats for './64_1300':
+ Performance counter stats for './64_1300' (100 runs):
 
-            47,011      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            51,357      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.61% )
 
-       0.849947747 seconds time elapsed
+       0.702725689 seconds time elapsed                                          ( +-  0.79% )
 

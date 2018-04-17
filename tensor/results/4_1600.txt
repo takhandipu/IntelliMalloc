@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:06 2018
+# started on Tue Apr 17 10:35:01 2018
 
 
- Performance counter stats for './4_1600':
+ Performance counter stats for './4_1600' (100 runs):
 
-            41,234      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            39,605      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.99% )
 
-       1.180426902 seconds time elapsed
+       1.099670059 seconds time elapsed                                          ( +-  0.38% )
 

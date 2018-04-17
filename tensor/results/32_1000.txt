@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:49 2018
+# started on Tue Apr 17 11:32:12 2018
 
 
- Performance counter stats for './32_1000':
+ Performance counter stats for './32_1000' (100 runs):
 
-            86,516      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            62,547      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.56% )
 
-       0.616664016 seconds time elapsed
+       0.482082092 seconds time elapsed                                          ( +-  0.99% )
 

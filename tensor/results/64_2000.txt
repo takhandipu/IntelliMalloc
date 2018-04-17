@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:35:17 2018
+# started on Tue Apr 17 12:09:21 2018
 
 
- Performance counter stats for './64_2000':
+ Performance counter stats for './64_2000' (100 runs):
 
-            68,824      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            66,476      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.06% )
 
-       1.897127293 seconds time elapsed
+       1.804602515 seconds time elapsed                                          ( +-  0.25% )
 

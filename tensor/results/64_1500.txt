@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:35:10 2018
+# started on Tue Apr 17 11:58:56 2018
 
 
- Performance counter stats for './64_1500':
+ Performance counter stats for './64_1500' (100 runs):
 
-            43,802      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            45,946      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.87% )
 
-       0.972764620 seconds time elapsed
+       0.950368089 seconds time elapsed                                          ( +-  0.52% )
 

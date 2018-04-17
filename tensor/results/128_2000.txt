@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:35:34 2018
+# started on Tue Apr 17 12:30:45 2018
 
 
- Performance counter stats for './128_2000':
+ Performance counter stats for './128_2000' (100 runs):
 
-            65,118      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            66,582      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.90% )
 
-       1.894614641 seconds time elapsed
+       1.809636168 seconds time elapsed                                          ( +-  0.21% )
 

@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:33:54 2018
+# started on Tue Apr 17 10:19:49 2018
 
 
- Performance counter stats for './2_1900':
+ Performance counter stats for './2_1900' (100 runs):
 
-            58,995      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            61,725      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.20% )
 
-       1.630371033 seconds time elapsed
+       1.569404920 seconds time elapsed                                          ( +-  0.32% )
 

@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:35:21 2018
+# started on Tue Apr 17 12:13:10 2018
 
 
- Performance counter stats for './128_600':
+ Performance counter stats for './128_600' (100 runs):
 
-            59,247      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            34,022      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.83% )
 
-       0.232276755 seconds time elapsed
+       0.184437514 seconds time elapsed                                          ( +-  1.09% )
 

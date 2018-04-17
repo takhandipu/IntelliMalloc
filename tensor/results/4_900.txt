@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:00 2018
+# started on Tue Apr 17 10:27:26 2018
 
 
- Performance counter stats for './4_900':
+ Performance counter stats for './4_900' (100 runs):
 
-            42,135      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            59,222      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.72% )
 
-       0.396226912 seconds time elapsed
+       0.399320144 seconds time elapsed                                          ( +-  1.05% )
 

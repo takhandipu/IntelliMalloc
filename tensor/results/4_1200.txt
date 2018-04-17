@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:02 2018
+# started on Tue Apr 17 10:29:49 2018
 
 
- Performance counter stats for './4_1200':
+ Performance counter stats for './4_1200' (100 runs):
 
-            43,214      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            48,179      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.28% )
 
-       0.652803190 seconds time elapsed
+       0.637589445 seconds time elapsed                                          ( +-  0.92% )
 

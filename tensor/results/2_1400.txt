@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:33:48 2018
+# started on Tue Apr 17 10:10:48 2018
 
 
- Performance counter stats for './2_1400':
+ Performance counter stats for './2_1400' (100 runs):
 
-            41,585      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            49,551      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.39% )
 
-       0.876037923 seconds time elapsed
+       0.800399094 seconds time elapsed                                          ( +-  0.69% )
 

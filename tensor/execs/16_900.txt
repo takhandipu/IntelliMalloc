@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:33 2018
+# started on Tue Apr 17 11:10:01 2018
 
 
- Performance counter stats for './16_900':
+ Performance counter stats for './16_900' (100 runs):
 
-            55,734      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            58,436      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.78% )
 
-       0.421799014 seconds time elapsed
+       0.403061193 seconds time elapsed                                          ( +-  0.97% )
 

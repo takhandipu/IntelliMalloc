@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:49 2018
+# started on Tue Apr 17 11:31:32 2018
 
 
- Performance counter stats for './32_900':
+ Performance counter stats for './32_900' (100 runs):
 
-            50,546      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            57,892      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.71% )
 
-       0.415179099 seconds time elapsed
+       0.399047920 seconds time elapsed                                          ( +-  1.04% )
 

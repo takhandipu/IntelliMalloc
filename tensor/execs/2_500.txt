@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:33:42 2018
+# started on Tue Apr 17 10:04:41 2018
 
 
- Performance counter stats for './2_500':
+ Performance counter stats for './2_500' (100 runs):
 
-            66,097      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            37,319      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.80% )
 
-       0.172426311 seconds time elapsed
+       0.152338962 seconds time elapsed                                          ( +-  0.98% )
 

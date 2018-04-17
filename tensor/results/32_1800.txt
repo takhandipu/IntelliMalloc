@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:58 2018
+# started on Tue Apr 17 11:42:58 2018
 
 
- Performance counter stats for './32_1800':
+ Performance counter stats for './32_1800' (100 runs):
 
-            47,005      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            48,863      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.60% )
 
-       1.408181756 seconds time elapsed
+       1.379739471 seconds time elapsed                                          ( +-  0.28% )
 

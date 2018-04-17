@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:35:20 2018
+# started on Tue Apr 17 12:12:55 2018
 
 
- Performance counter stats for './128_500':
+ Performance counter stats for './128_500' (100 runs):
 
-            35,147      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            37,586      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.57% )
 
-       0.153737053 seconds time elapsed
+       0.152413784 seconds time elapsed                                          ( +-  1.08% )
 

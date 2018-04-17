@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:33:35 2018
+# started on Tue Apr 17 09:54:17 2018
 
 
- Performance counter stats for './1_1700':
+ Performance counter stats for './1_1700' (100 runs):
 
-            43,775      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            48,393      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.82% )
 
-       1.275716379 seconds time elapsed
+       1.194838968 seconds time elapsed                                          ( +-  0.31% )
 

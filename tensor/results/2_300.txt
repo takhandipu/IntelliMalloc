@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:33:42 2018
+# started on Tue Apr 17 10:04:20 2018
 
 
- Performance counter stats for './2_300':
+ Performance counter stats for './2_300' (100 runs):
 
-            43,510      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            41,545      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.38% )
 
-       0.103232930 seconds time elapsed
+       0.091005440 seconds time elapsed                                          ( +-  1.01% )
 

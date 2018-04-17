@@ -1,9 +1,9 @@
-# started on Tue Apr 17 09:34:59 2018
+# started on Tue Apr 17 11:45:16 2018
 
 
- Performance counter stats for './32_1900':
+ Performance counter stats for './32_1900' (100 runs):
 
-            54,223      mem_load_uops_l3_hit_retired_xsnp_hitm                                   
+            60,565      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.26% )
 
-       1.653075168 seconds time elapsed
+       1.580400642 seconds time elapsed                                          ( +-  0.27% )
 
