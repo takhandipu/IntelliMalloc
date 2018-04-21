@@ -8,8 +8,8 @@
 #define DISTANCE 1
 #endif
 
-int  a[SIZE][SIZE], b[SIZE][SIZE];
-int c[SIZE][SIZE*DISTANCE];
+float  a[SIZE][SIZE], b[SIZE][SIZE];
+float c[SIZE][SIZE*DISTANCE];
 
 struct padded
 {

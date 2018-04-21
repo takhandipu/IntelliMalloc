@@ -16,6 +16,21 @@ Eigen::Tensor<float, 2> c(SIZE,SIZE);
 
 Eigen::array<Eigen::IndexPair<int>, 1> dimension = {Eigen::IndexPair<int>(1,0)};
 
+void printResult()
+{
+  int i,j;
+  FILE *fp = fopen("tensor.txt", "w");
+  for(i=0;i<SIZE;i++)
+  {
+    for(j=0;j<SIZE;j++)
+    {
+      fprintf(fp,"%f ",c(i,j));
+    }
+    fprintf(fp,"\n");
+  }
+  fclose(fp);
+}
+
 int main(void)
 {
   //cout<<&c(0,0).value<<endl;
@@ -36,6 +51,6 @@ int main(void)
   /*cout<<a<<endl;
   cout<<b<<endl;
   cout<<c<<endl;*/
- 
+  //printResult();
   return 0;
 }
