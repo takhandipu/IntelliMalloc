@@ -1,0 +1,9 @@
+# started on Sat Apr 21 22:11:29 2018
+
+
+ Performance counter stats for './200' (100 runs):
+
+            42,258      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.59% )
+
+       0.009880459 seconds time elapsed                                          ( +-  1.10% )
+

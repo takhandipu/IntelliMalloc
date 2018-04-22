@@ -1,9 +1,0 @@
-# started on Tue Apr 17 11:36:09 2018
-
-
- Performance counter stats for './32_1400' (100 runs):
-
-            48,373      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.10% )
-
-       0.816744599 seconds time elapsed                                          ( +-  0.65% )
-

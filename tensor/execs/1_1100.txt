@@ -1,9 +1,0 @@
-# started on Tue Apr 17 09:46:25 2018
-
-
- Performance counter stats for './1_1100' (100 runs):
-
-            48,443      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.27% )
-
-       0.534963850 seconds time elapsed                                          ( +-  0.83% )
-

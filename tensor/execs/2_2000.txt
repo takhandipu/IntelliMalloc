@@ -1,9 +1,0 @@
-# started on Tue Apr 17 10:22:26 2018
-
-
- Performance counter stats for './2_2000' (100 runs):
-
-            66,665      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.03% )
-
-       1.772192623 seconds time elapsed                                          ( +-  0.24% )
-

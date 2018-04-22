@@ -1,0 +1,9 @@
+# started on Sat Apr 21 21:38:53 2018
+
+
+ Performance counter stats for './700' (100 runs):
+
+            39,255      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.83% )
+
+       0.233837508 seconds time elapsed                                          ( +-  1.11% )
+

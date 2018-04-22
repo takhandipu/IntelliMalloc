@@ -1,9 +1,0 @@
-# started on Tue Apr 17 10:25:35 2018
-
-
- Performance counter stats for './4_300' (100 runs):
-
-            41,685      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.46% )
-
-       0.090250344 seconds time elapsed                                          ( +-  1.09% )
-

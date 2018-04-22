@@ -1,0 +1,9 @@
+# started on Sat Apr 21 22:10:02 2018
+
+
+ Performance counter stats for './600' (100 runs):
+
+            75,139      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.10% )
+
+       0.023103858 seconds time elapsed                                          ( +-  1.87% )
+

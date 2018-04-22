@@ -1,0 +1,9 @@
+# started on Sat Apr 21 22:09:58 2018
+
+
+ Performance counter stats for './400' (100 runs):
+
+            63,729      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.65% )
+
+       0.016158961 seconds time elapsed                                          ( +-  1.86% )
+

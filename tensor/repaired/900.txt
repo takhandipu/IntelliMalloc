@@ -1,0 +1,9 @@
+# started on Sat Apr 21 21:39:49 2018
+
+
+ Performance counter stats for './900' (100 runs):
+
+            53,460      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.92% )
+
+       0.398353583 seconds time elapsed                                          ( +-  1.00% )
+

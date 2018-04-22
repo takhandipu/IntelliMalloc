@@ -1,0 +1,9 @@
+# started on Sat Apr 21 22:10:27 2018
+
+
+ Performance counter stats for './1400' (100 runs):
+
+            68,331      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.27% )
+
+       0.041584546 seconds time elapsed                                          ( +-  1.64% )
+

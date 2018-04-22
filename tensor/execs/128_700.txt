@@ -1,9 +1,0 @@
-# started on Tue Apr 17 12:13:29 2018
-
-
- Performance counter stats for './128_700' (100 runs):
-
-            39,956      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.79% )
-
-       0.233713348 seconds time elapsed                                          ( +-  1.13% )
-

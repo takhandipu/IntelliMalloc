@@ -1,9 +1,0 @@
-# started on Tue Apr 17 11:52:27 2018
-
-
- Performance counter stats for './64_800' (100 runs):
-
-            57,485      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.04% )
-
-       0.320677484 seconds time elapsed                                          ( +-  1.00% )
-

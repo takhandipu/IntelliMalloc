@@ -1,9 +1,0 @@
-# started on Tue Apr 17 10:38:51 2018
-
-
- Performance counter stats for './4_1800' (100 runs):
-
-            46,551      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.20% )
-
-       1.355843720 seconds time elapsed                                          ( +-  0.28% )
-

@@ -1,0 +1,9 @@
+# started on Sat Apr 21 22:12:05 2018
+
+
+ Performance counter stats for './1500' (100 runs):
+
+            58,197      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.28% )
+
+       0.048430805 seconds time elapsed                                          ( +-  1.45% )
+

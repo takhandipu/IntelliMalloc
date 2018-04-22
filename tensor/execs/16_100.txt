@@ -1,9 +1,0 @@
-# started on Tue Apr 17 11:07:58 2018
-
-
- Performance counter stats for './16_100' (100 runs):
-
-            40,865      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.76% )
-
-       0.054322058 seconds time elapsed                                          ( +-  1.22% )
-

@@ -1,0 +1,9 @@
+# started on Sat Apr 21 22:09:55 2018
+
+
+ Performance counter stats for './100' (100 runs):
+
+            36,587      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.49% )
+
+       0.009906151 seconds time elapsed                                          ( +-  1.49% )
+

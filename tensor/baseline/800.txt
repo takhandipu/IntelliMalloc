@@ -1,0 +1,9 @@
+# started on Sat Apr 21 21:13:40 2018
+
+
+ Performance counter stats for './800' (100 runs):
+
+            60,111      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.88% )
+
+       0.327590477 seconds time elapsed                                          ( +-  1.09% )
+

@@ -1,9 +1,0 @@
-# started on Tue Apr 17 11:13:29 2018
-
-
- Performance counter stats for './16_1300' (100 runs):
-
-            50,797      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.25% )
-
-       0.727022892 seconds time elapsed                                          ( +-  0.76% )
-

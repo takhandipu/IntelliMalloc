@@ -1,0 +1,9 @@
+# started on Sat Apr 21 21:12:43 2018
+
+
+ Performance counter stats for './500' (100 runs):
+
+            40,841      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  3.37% )
+
+       0.154008206 seconds time elapsed                                          ( +-  0.97% )
+

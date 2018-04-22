@@ -1,0 +1,9 @@
+# started on Sat Apr 21 19:46:47 2018
+
+
+ Performance counter stats for './tensor_parallel' (100 runs):
+
+            58,579      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  2.53% )
+
+       0.485709489 seconds time elapsed                                          ( +-  0.94% )
+

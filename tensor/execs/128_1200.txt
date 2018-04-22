@@ -1,9 +1,0 @@
-# started on Tue Apr 17 12:16:49 2018
-
-
- Performance counter stats for './128_1200' (100 runs):
-
-            46,155      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  1.92% )
-
-       0.626660770 seconds time elapsed                                          ( +-  0.82% )
-

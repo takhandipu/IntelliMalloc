@@ -1,9 +1,0 @@
-# started on Tue Apr 17 11:40:57 2018
-
-
- Performance counter stats for './32_1700' (100 runs):
-
-            45,974      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.78% )
-
-       1.206824874 seconds time elapsed                                          ( +-  0.32% )
-

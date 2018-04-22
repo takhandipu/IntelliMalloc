@@ -1,9 +1,0 @@
-# started on Tue Apr 17 10:13:43 2018
-
-
- Performance counter stats for './2_1600' (100 runs):
-
-            40,278      mem_load_uops_l3_hit_retired_xsnp_hitm                                     ( +-  0.94% )
-
-       1.099719570 seconds time elapsed                                          ( +-  0.35% )
-
